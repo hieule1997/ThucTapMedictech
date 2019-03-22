@@ -24,4 +24,4 @@ Một số command hữu ích:  trang
 `cd`Chuyển từ thư mục hiện tại về thư mục riêng
 `pwd`Hiện thư mục hiện tại
 `mkdir dir`Tạo thư mục dir
-
+d

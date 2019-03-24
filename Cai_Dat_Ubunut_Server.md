@@ -11,7 +11,7 @@
 # II.Cách cài đặt ubuntu server 16.04 64 bit trên VMware  
 #### 1. Cấu hình tối thiểu  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889327/87ee89c8-0d88-11e6-884a-b7dd88d35149.png" text-lign="center">
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889327/87ee89c8-0d88-11e6-884a-b7dd88d35149.png" width="901" height="369">
   
 #### 2. Các bước cài đặt  
 
@@ -21,64 +21,64 @@
 
 **Bước 2: Chọn `Install Ubuntu Server` để bắt đầu quá trình cài đặt**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889352/9edd833c-0d88-11e6-9f4e-092ecd5d08d4.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889352/9edd833c-0d88-11e6-9f4e-092ecd5d08d4.png" width="901" height="369">  
 
 **Bước 3: Chọn ngôn ngữ cài đặt**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889472/280ab3d2-0d89-11e6-8660-b18ee207a391.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889472/280ab3d2-0d89-11e6-8660-b18ee207a391.png" width="901" height="369">  
 
 **Bước 4: Chọn time zone và khu vực**  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889477/2a66885e-0d89-11e6-9f53-364f15c55115.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889477/2a66885e-0d89-11e6-9f53-364f15c55115.png" width="901" height="369">  
 
 **Bước 5: Nếu khu vực vừa chọn không tương thích với ngôn ngữ đã chọn,máy sẽ báo phải chọn lại khu vực**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889514/4641a9e6-0d89-11e6-9cbc-f5b53989f84f.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889514/4641a9e6-0d89-11e6-9cbc-f5b53989f84f.png" width="901" height="369">  
 
 **Bước 6: chọn `No` nếu không muốn dò bàn phím và tiến hành chọn kiểu bàn phím thủ công**  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889517/4a5793ec-0d89-11e6-9aa4-13a52ca0a58f.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889517/4a5793ec-0d89-11e6-9aa4-13a52ca0a58f.png" width="901" height="369">  
  
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889519/503d2952-0d89-11e6-9ffb-77204e3937df.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889519/503d2952-0d89-11e6-9ffb-77204e3937df.png" width="901" height="369">  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889588/9dac6edc-0d89-11e6-95f9-602c3bb34ec1.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889588/9dac6edc-0d89-11e6-95f9-602c3bb34ec1.png" width="901" height="369">  
 
 **Bước 7: DHCP báo không thể cấp lại địa chỉ IP động, lúc này phải chọn cấu hình bằng tay.Chọn `configure network manually`**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889591/a4e6b2de-0d89-11e6-8cec-22df86372e78.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889591/a4e6b2de-0d89-11e6-8cec-22df86372e78.png" width="901" height="369">  
   
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889624/c6fa2ba8-0d89-11e6-9e6d-a1a99eb41d8c.png" style="max-width:100%;">
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889624/c6fa2ba8-0d89-11e6-9e6d-a1a99eb41d8c.png" width="901" height="369">
 
 **Bước 8:Cấu hình địa chỉ IP,netmask,gateway,name server(có thể để trống),hostname,domain name(có thể để trống).**  
  
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889629/cbc01b84-0d89-11e6-9b4c-def629ac9044.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889629/cbc01b84-0d89-11e6-9b4c-def629ac9044.png" width="901" height="369">  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889652/e89e827c-0d89-11e6-8e77-d1c1f7aaf5b9.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889652/e89e827c-0d89-11e6-8e77-d1c1f7aaf5b9.png" width="901" height="369">  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889673/f9864840-0d89-11e6-8804-d8fb844a5652.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889673/f9864840-0d89-11e6-8804-d8fb844a5652.png" width="901" height="369">  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889673/f9864840-0d89-11e6-8804-d8fb844a5652.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889673/f9864840-0d89-11e6-8804-d8fb844a5652.png" width="901" height="369">  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889683/027a05f4-0d8a-11e6-9f41-a7ec7e47eef6.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889683/027a05f4-0d8a-11e6-9f41-a7ec7e47eef6.png" width="901" height="369">  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889683/027a05f4-0d8a-11e6-9f41-a7ec7e47eef6.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889683/027a05f4-0d8a-11e6-9f41-a7ec7e47eef6.png" width="901" height="369">  
 
 **Bước 9:Tạo user và password**  
 * Không giống một số hệ điều hành Linux khác như CentOS, Ubuntu không cho phép người dùng đặt mật khẩu và sử dụng ngay tài khoản `root`. Thay vào đó, chúng ta phải tạo một tài khoản mới rồi sau khi cài đặt xong mới có thể dùng nó để đăng nhập sang tài khoản root. Điều này góp phần tăng tính bảo mật cho HĐH Ubuntu Server.  
 
 <img src="https://cloud.githubusercontent.com/assets/18635054/14889743/385c86a6-0d8a-11e6-9e86-25e2209a6764.png" style="max-width:100%;">  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889752/3ecb10f2-0d8a-11e6-93da-30b136634b9a.png" width="494" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889752/3ecb10f2-0d8a-11e6-93da-30b136634b9a.png" width="901" height="369">  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889752/3ecb10f2-0d8a-11e6-93da-30b136634b9a.png" width="494" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889752/3ecb10f2-0d8a-11e6-93da-30b136634b9a.png" width="901" height="369">  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889750/3ead6f02-0d8a-11e6-8b36-2d9c56b7e601.png" width="498" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889750/3ead6f02-0d8a-11e6-8b36-2d9c56b7e601.png" width="901" height="369">  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889753/3edc56d2-0d8a-11e6-8e55-866d228a8cb2.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889753/3edc56d2-0d8a-11e6-8e55-866d228a8cb2.png" width="901" height="369">  
 
 **Bước 10:Server hỏi xem liệu người dùng muốn mã hóa thư mục `home` không.Chọn `No` nếu không muốn.**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889789/6dbd0c08-0d8a-11e6-980b-7bfa015a4593.png" width="498" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889789/6dbd0c08-0d8a-11e6-980b-7bfa015a4593.png" width="901" height="369">  
 
 **Bước 11:Phân vùng ổ cứng cho Ubuntu**  
 * Có 4 sự lựa chọn cho người dùng
@@ -91,19 +91,19 @@
 * Phân vùng thứ 2 khoảng 1,1 GB có định dạng swap dùng làm Ram ảo cho hệ điều hành  
 * Ở đây tôi chọn phân vùng tự động với LVM.  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14890749/0dfc6d8c-0d8e-11e6-822e-3cf98535b5c9.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14890749/0dfc6d8c-0d8e-11e6-822e-3cf98535b5c9.png" width="901" height="369"> 
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14890751/0e0f565e-0d8e-11e6-8032-d40af7bb35e5.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14890751/0e0f565e-0d8e-11e6-8032-d40af7bb35e5.png" width="901" height="369"> 
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14890753/0e36de90-0d8e-11e6-9362-2a562fb652ff.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14890753/0e36de90-0d8e-11e6-9362-2a562fb652ff.png" width="901" height="369">
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14890750/0dfdda96-0d8e-11e6-8db5-535f2d9f3278.png" width="495" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14890750/0dfdda96-0d8e-11e6-8db5-535f2d9f3278.png" width="901" height="369">
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14890750/0dfdda96-0d8e-11e6-8db5-535f2d9f3278.png" width="495" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14890750/0dfdda96-0d8e-11e6-8db5-535f2d9f3278.png" width="901" height="369">
 
 **Bước 12:Cấu hình HTTP proxy Server**  
 * Điền vào proxy,nếu không có thì để trống.  
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889924/e18ae8e4-0d8a-11e6-82e5-dd2d450b97cd.png" width="496" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889924/e18ae8e4-0d8a-11e6-82e5-dd2d450b97cd.png" width="901" height="369">
 
 **Bước 13: Cấu hình và cập nhật**  
 * Có 3 sự lựa chọn
@@ -112,12 +112,12 @@
 * Mange system with Landscape: Quản lý từ xa.  
 * Tùy vào người sử dụng, ở đây tôi chọn "Không cho phép tự động cập nhật"  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889926/e2356a62-0d8a-11e6-8e73-40081927d330.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889926/e2356a62-0d8a-11e6-8e73-40081927d330.png" width="901" height="369">
 
 **Bước 14: Cấu hình cài đặt các phần mềm hỗ trợ**  
 * Ấn `Space` để chọn phần mềm bạn muốn cài thêm, ở đây tôi chọn cài thêm OpenSSH Server để có thể SSH từ xa.  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889928/e25f0caa-0d8a-11e6-831f-89c78d528d41.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889928/e25f0caa-0d8a-11e6-831f-89c78d528d41.png" width="901" height="369"> 
 
 **Bước 15: Cài đặt boot loader(GRUB) trên ổ đĩa**   
 

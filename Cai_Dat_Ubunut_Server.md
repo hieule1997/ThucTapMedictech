@@ -66,7 +66,7 @@
 **Bước 9:Tạo user và password**  
 * Không giống một số hệ điều hành Linux khác như CentOS, Ubuntu không cho phép người dùng đặt mật khẩu và sử dụng ngay tài khoản `root`. Thay vào đó, chúng ta phải tạo một tài khoản mới rồi sau khi cài đặt xong mới có thể dùng nó để đăng nhập sang tài khoản root. Điều này góp phần tăng tính bảo mật cho HĐH Ubuntu Server.  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889743/385c86a6-0d8a-11e6-9e86-25e2209a6764.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889743/385c86a6-0d8a-11e6-9e86-25e2209a6764.png" width="901" height="369"> 
 
 <img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889752/3ecb10f2-0d8a-11e6-93da-30b136634b9a.png" width="901" height="369">  
 
@@ -121,10 +121,10 @@
 
 **Bước 15: Cài đặt boot loader(GRUB) trên ổ đĩa**   
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889955/fda32280-0d8a-11e6-86dc-9fac4509dbee.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889955/fda32280-0d8a-11e6-86dc-9fac4509dbee.png"width="901" height="369"> 
 
 **Bước 16: Kết thúc và chonj `Continues` để reboot lại máy**  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889954/fda11c4c-0d8a-11e6-919a-b73540e70593.png" style="max-width:100%;">  
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889954/fda11c4c-0d8a-11e6-919a-b73540e70593.png" width="901" height="369"> 
 
 Sau khi reboot lại máy, các bạn đăng nhập bằng bằng tài khoản đã tạo ở bước 9. Lúc này bạn `Continue` và máy tính sẽ tự restart vào OS ubuntu Server cho bạn 

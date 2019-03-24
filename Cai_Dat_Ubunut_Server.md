@@ -11,7 +11,7 @@
 # II.Cách cài đặt ubuntu server 16.04 64 bit trên VMware  
 #### 1. Cấu hình tối thiểu  
 
-<img src="https://cloud.githubusercontent.com/assets/18635054/14889327/87ee89c8-0d88-11e6-884a-b7dd88d35149.png">
+<img src="https://cloud.githubusercontent.com/assets/18635054/14889327/87ee89c8-0d88-11e6-884a-b7dd88d35149.png" text-lign="center">
   
 #### 2. Các bước cài đặt  
 

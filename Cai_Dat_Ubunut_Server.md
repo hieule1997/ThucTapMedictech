@@ -9,17 +9,19 @@
 * Ubuntu là phần mềm mã nguồn mở tự do, có nghĩa là người dùng được tự do chạy, sao chép, phân phối, nghiên cứu, thay đổi và cải tiến phần mềm theo điều khoản của giấy phép GNU GPL.  
 * buntu kết hợp những đặc điểm nổi bật chung của hệ điều hành nhân Linux, như tính bảo mật trước mọi virus và malware, khả năng tùy biến cao, tốc độ, hiệu suất làm việc, và những đặc điểm riêng tiêu biểu của Ubuntu như giao diện bắt mắt, bóng bẩy, cài đặt ứng dụng đơn giản, sự dễ dàng trong việc sao lưu dữ liệu và sự hỗ trợ của một cộng đồng người dùng khổng lồ.
 # II.Cách cài đặt ubuntu server 16.04 64 bit trên VMware  
-####1. Cấu hình tối thiểu
+#### 1. Cấu hình tối thiểu  
+
 <img src="https://cloud.githubusercontent.com/assets/18635054/14889327/87ee89c8-0d88-11e6-884a-b7dd88d35149.png">
   
-####2. Các bước cài đặt  
+#### 2. Các bước cài đặt  
+
 **Bước 1: Chọn ngôn ngữ cho Ubuntu Server**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889350/9bdca47e-0d88-11e6-80d7-a0709f9a9c9f.png" width="488" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889350/9bdca47e-0d88-11e6-80d7-a0709f9a9c9f.png" style="max-width:100%;">  
 
-*Bước 2: Chọn `Install Ubuntu Server` để bắt đầu quá trình cài đặt*  
+**Bước 2: Chọn `Install Ubuntu Server` để bắt đầu quá trình cài đặt**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889352/9edd833c-0d88-11e6-9f4e-092ecd5d08d4.png" width="492" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889352/9edd833c-0d88-11e6-9f4e-092ecd5d08d4.png" style="max-width:100%;">  
 
 **Bước 3: Chọn ngôn ngữ cài đặt**  
 

@@ -17,7 +17,7 @@
 
 **Bước 1: Chọn ngôn ngữ cho Ubuntu Server**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889350/9bdca47e-0d88-11e6-80d7-a0709f9a9c9f.png" width="801" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889350/9bdca47e-0d88-11e6-80d7-a0709f9a9c9f.png" width="901" height="369">  
 
 **Bước 2: Chọn `Install Ubuntu Server` để bắt đầu quá trình cài đặt**  
 

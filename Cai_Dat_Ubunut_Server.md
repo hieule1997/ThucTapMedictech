@@ -17,15 +17,15 @@
 
 **Bước 1: Chọn ngôn ngữ cho Ubuntu Server**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889350/9bdca47e-0d88-11e6-80d7-a0709f9a9c9f.png" style="max-width:100%;">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889350/9bdca47e-0d88-11e6-80d7-a0709f9a9c9f.png" width="801" height="369">  
 
 **Bước 2: Chọn `Install Ubuntu Server` để bắt đầu quá trình cài đặt**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889352/9edd833c-0d88-11e6-9f4e-092ecd5d08d4.png" style="max-width:100%;">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889352/9edd833c-0d88-11e6-9f4e-092ecd5d08d4.png" width="801" height="369">  
 
 **Bước 3: Chọn ngôn ngữ cài đặt**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889472/280ab3d2-0d89-11e6-8660-b18ee207a391.png" width="501" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889472/280ab3d2-0d89-11e6-8660-b18ee207a391.png" width="801" height="369">  
 
 **Bước 4: Chọn time zone và khu vực**  
 
@@ -33,27 +33,27 @@
 
 **Bước 5: Nếu khu vực vừa chọn không tương thích với ngôn ngữ đã chọn,máy sẽ báo phải chọn lại khu vực**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889514/4641a9e6-0d89-11e6-9cbc-f5b53989f84f.png" width="501" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889514/4641a9e6-0d89-11e6-9cbc-f5b53989f84f.png" width="801" height="369">  
 
 **Bước 6: chọn `No` nếu không muốn dò bàn phím và tiến hành chọn kiểu bàn phím thủ công**  
 
 <img src="https://cloud.githubusercontent.com/assets/18635054/14889517/4a5793ec-0d89-11e6-9aa4-13a52ca0a58f.png" style="max-width:100%;">  
  
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889519/503d2952-0d89-11e6-9ffb-77204e3937df.png" width="500" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889519/503d2952-0d89-11e6-9ffb-77204e3937df.png" width="801" height="369">  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889588/9dac6edc-0d89-11e6-95f9-602c3bb34ec1.png" width="497" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889588/9dac6edc-0d89-11e6-95f9-602c3bb34ec1.png" width="801" height="369">  
 
 **Bước 7: DHCP báo không thể cấp lại địa chỉ IP động, lúc này phải chọn cấu hình bằng tay.Chọn `configure network manually`**  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889591/a4e6b2de-0d89-11e6-8cec-22df86372e78.png" width="498" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889591/a4e6b2de-0d89-11e6-8cec-22df86372e78.png" width="801" height="369">  
   
 <img src="https://cloud.githubusercontent.com/assets/18635054/14889624/c6fa2ba8-0d89-11e6-9e6d-a1a99eb41d8c.png" style="max-width:100%;">
 
 **Bước 8:Cấu hình địa chỉ IP,netmask,gateway,name server(có thể để trống),hostname,domain name(có thể để trống).**  
  
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889629/cbc01b84-0d89-11e6-9b4c-def629ac9044.png" width="500" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889629/cbc01b84-0d89-11e6-9b4c-def629ac9044.png" width="801" height="369">  
 
-<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889652/e89e827c-0d89-11e6-8e77-d1c1f7aaf5b9.png" width="498" height="369">  
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="https://cloud.githubusercontent.com/assets/18635054/14889652/e89e827c-0d89-11e6-8e77-d1c1f7aaf5b9.png" width="801" height="369">  
 
 <img src="https://cloud.githubusercontent.com/assets/18635054/14889673/f9864840-0d89-11e6-8804-d8fb844a5652.png" style="max-width:100%;">  
 

@@ -52,43 +52,4 @@
     Chứa dữ liệu liên quan đến dịch vụ trên máy chủ.  
     Lệnh chuyển tới `cd/srv`  
     
-##### Các lệnh file system thiết yếu  
-Một số command hữu ích:  trang
 
-`cd `Chuyển về thư mục home  
-`cd ..`Chuyển về thư mục cha  
-`cd - `Chuyển về thư mục vừa rời đi trước đó  
-`cd / `Chuyển đến thư mục root(/)  
-`cd/home/trang `Chuyển đến thư mục `/home/trang`  
-
-##### Các lệnh xử lý tập tin
-`ls`Liệt kê nội dung thư mục hiện tại  
-`ls -al`Liệt kê có định dạng và cả tập tin ẩn
-`cd dir`Chuyển từ thư mục hiện tại sang dir
-`cd`Chuyển từ thư mục hiện tại về thư mục riêng
-`pwd`Hiện thư mục hiện tại
-`mkdir dir`Tạo thư mục dir
-`touch `Tạo File
-`cat`Xem File
-`mv`Dùng để đổi tên file *mv ten_file_cu ten_file_moi*  
-
-#### Các câu lệnh tạo xóa user và group
-* useradd:`Thêm các tài khoản cá nhân tới hệ thống.`  
-* usermod:`Chỉnh sửa các thuộc tính của tài khỏa cá nhân.`  
-* userdel:`Xóa các tài khoản nhóm tới hệ thống.`
-* groupadd:`Thêm các tài khoản nhóm tới hệ thống`  
-* groupmod:`Chỉnh sửa các thuộc tính của tài khoản nhóm`  
-* groupdel:`Xóa các tài khoản nhóm khỏi hệ thống.`  
- 
-#### Phân quyền trong linux
-a.Read(r): Đối với một file thì quyền Read chính là quyền được xem nội dung file  
-còn đối với một folder thì quyền Read chính là quyền xem được danh sách các subfolder và file bên trong  
-folder đó
-b. Write (w)
-Đối với một file thì quyền Write là cho phép thêm, sửa nội dùng file, còn đối với một folder thì Write cho phép thêm, xóa một subfolder hay file trong thư mục đó.
-
-c. Execute (x)
-Đây là quyền thực thi. Đối với một file thì Execute cho phép thực thi file trong trường hợp file này thuộc dạng program hoặc script, còn đối với một folder Execute cho phép cd vào thư mục này.
-
-d. Deny (-)
-Không có quyền làm một thao tác gì đó đối với một file hay folder xác định.

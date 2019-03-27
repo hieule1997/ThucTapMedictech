@@ -1,4 +1,4 @@
-#Các câu lệnh trong linux
+# Các câu lệnh trong linux  
 **Các lệnh xử lí tập tin**
     ls -liệt kê nội dung thư mục hiện tại  
     `ls -al -liệt kê có định dạng và cả tập tin ẩn`  

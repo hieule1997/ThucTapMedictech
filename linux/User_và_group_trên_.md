@@ -56,5 +56,28 @@
     Để cấu hình user ta sẽ xem file **/etc/default/useradd**  
     ```
         # cat /etc/default/useradd
-    ```  
+    ```   
+    <img src="img/2.png">  
     
+   **Nội dung file như sau:**  
+   1.Shell: là một hệ vỏ mặc định mà user sẽ được sử dụng. Bạn cứ hiểu là khi vào SSH, bạn gõ các dòng lệnh  
+   Linux vào và thực thi, đó chính là bạn đang dùng Shell. Nếu bạn không muốn user được tạo ra có quyền sử dụng  
+   Shell thì để trống phần này.  
+   2.Group: là ID của group mặc định mà user sẽ được đưa vào khi tạo ra.  
+   3.Home: Đường dẫn mặc định chứa các thư mục của từng thành viên khi tạo ra.  
+   4.Inactive: Thời gian mà tài khoản sẽ bị khóa vĩnh viễn sau khi mật khẩu của thành viên đó hết hạn.  
+   5.Expire: Ngày mà tài khoản của thành viên được tạo ra mặc định sẽ bị khóa. Cấu trúc ngày tháng ở đây là YYYY-MM_DD  
+   6.Skel: Thư mục mẫu của user mà khi tạo ra, user sẽ tự động coppy các file và thư mục trong đây vào thư mục /home/tên-user  
+   7.Create_mail_spool: cho thành viên được phép sử dụng mail trên server nếu tùy chọn là yes.Mail sẽ được lưu trong file /var/mail/tên-user hoặc /var/spool/mail/tên-user.  
+   **file/ect/group**  
+   **/etc/group** là file chưa các thông tin về group  
+   ```# cat /etc/group```  
+   <img src="img/3.png">  
+   Cấu trúc của nó như sau:
+   **GroupName : Password : GroupID : User1,User2,...**  
+   1.Groupname:tên nhóm  
+   2.Passwd: lưu chuỗi passwd, chỗ này được ghi là x  
+   3.Gruop ID: ID của nhóm  
+   4.User: Danh sách các user nhận group này là secondary, ngăn cách nhau bằng dấu phẩy  
+   
+     

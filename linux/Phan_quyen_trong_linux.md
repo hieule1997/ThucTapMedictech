@@ -115,20 +115,20 @@ Ngoài ra người ta còn sử dụng thêm một bit thứ 4 để biểu di�
 Mặc định thì khi set permision cho thư mục thì sẽ có tính kế thừa cho các file và các thư mục con  
 
 **Default permision**  
-  * Usmark cũng được sử dụng theo dạng `Octal` như quyền của file.  
+  * Umark cũng được sử dụng theo dạng `Octal` như quyền của file.  
   khi một file được tạo ra, quyền mặc định của nó sẽ trừ cho umask để ra quyền của file.  
   Khi một thư mục được tạo ra, quyền mặc định của nó sẽ trừ cho umask để ra quyền của folder  
   
 *ví dụ:*  
-Với usmask 022  
+Với umask 022  
 File và thư mục sẽ có quyền lần lượt là  
 file:  
 default: 666  
 umask: 022  
 permision: 6444  
 
-**File usmask được cấu hình ở đâu?**  
-usmask sẽ được cấu hình tại /etc/porfile hoặc /etc/bashrc sẽ áp dụng cho toàn bộ người dùng.  
+**File umask được cấu hình ở đâu?**  
+umask sẽ được cấu hình tại /etc/porfile hoặc /etc/bashrc sẽ áp dụng cho toàn bộ người dùng.  
 Người dùng có thể override umask bằng cách set umask trong home folder của họ với  
 /user/.bashrc(được load trong nologin mode) hoặc /user/.bash_profile(được load trong login mode) đối với bash shell.  
 

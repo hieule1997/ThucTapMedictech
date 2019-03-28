@@ -13,7 +13,11 @@ Su cho phép truy cập vào các tài khoản của người dùng khác
 
 Nó sử dụng một tệp cấu hình (/etc/sudoers) liệt kê những người dùng nào có quyền đối với các hành động cụ thể(chạy các lệnh dưới dạng root)  
 Khi được gọi, nó yêu cầu *mật khẩu của người dùng đã bắt đầu*. Để thu hồi đặc quyền quản trị từ một người, bạn chỉ càn chỉnh sửa tệp cấu hình  
-(hoặc xóa người dùng khỏi nhóm được liệt kê trong cấu hình đó). Điều này dẫn đến việc quản lý quyền ưu tiên hơn nhiều.  
+(hoặc xóa người dùng khỏi nhóm được liệt kê trong cấu hình đó). Điều này dẫn đến việc quản lý quyền ưu tiên hơn nhiều.    
 
-```Sudo để người dùng sử dụng tài khoản của họ để chạy câu lệnh hệ thống.Su thì bắt buộc người dùng chia sẻ root password với các người dùng khác.  
-Đó chính là lý do tại sao sudo không khởi động bất kì một cửa sổ shell mới nào```  
+```
+Sudo để người dùng sử dụng tài khoản của họ để chạy câu lệnh hệ thống.Su thì bắt buộc người dùng chia sẻ root password với các người dùng khác.
+Đó chính là lý do tại sao sudo không khởi động bất kì một cửa sổ shell mới nào
+```  
+Sudo là một bộ nhị phân setuid ở thư mục root, nó thực hiện các lệnh root thay cho người dùng được ủy quyền và người dùng cần phải nhập mật khẩu  
+của họ để thực hiện hệ thống bằng `sudo`  

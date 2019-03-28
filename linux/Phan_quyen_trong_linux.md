@@ -27,9 +27,9 @@ này ảnh hưởng tới các nhóm của người sở hữu: user(u),group(g)
     chmod [option] [permission] [name file/directiory]  
 ```  
 Phần `permision`  có 3 kiểu:  
-    * kiểu kí tự (rw-rw-r--)  
-    * kiểu ugo: Phân quyền cho từng đối tượng(u+x:user thêm quyền thực thi)  
-    * kiểu số: ví dụ rwxrw-r = 764  
+   * kiểu kí tự (rw-rw-r--)  
+   * kiểu ugo: Phân quyền cho từng đối tượng(u+x:user thêm quyền thực thi)  
+   * kiểu số: ví dụ rwxrw-r = 764  
     
 **Một số quy ước cho kiểu ugo**  
 
@@ -88,9 +88,9 @@ Output của câu leenj trên sẽ có dạng như sau: `-rwxr-x-r-x 1 user grou
  Như vậy, khi tạo file mới, quyền cao nhất luôn luôn thuộc về người tạo ra nó, bao gồm đọc,sửa,xóa...,  
  nhóm người dùng khác chỉ có quyền xem. Với thư mục, mặc dù vẫn dùng chung các kí hiệu r,w,x như file thông thường  
  nhưng quyền hạn có khác một chút cụ thể là:  
-    * r(read): quyền xem danh sách file và thư mục con(dùng lênh ls)  
-    * w(write): quyền tạo file và thư mục con(dùng lênh touch và mkdir)  
-    * x(excute): quyền chuyển vào thư mục (dùng lệnh cd)  
+   * r(read): quyền xem danh sách file và thư mục con(dùng lênh ls)  
+   * w(write): quyền tạo file và thư mục con(dùng lênh touch và mkdir)  
+   * x(excute): quyền chuyển vào thư mục (dùng lệnh cd)  
    
 #### Quy ước kiểu số:
 | Permision | Binary | Number |  
@@ -114,5 +114,22 @@ Ngoài ra người ta còn sử dụng thêm một bit thứ 4 để biểu di�
 
 Mặc định thì khi set permision cho thư mục thì sẽ có tính kế thừa cho các file và các thư mục con  
 
+**Default permision**  
+  * Usmark cũng được sử dụng theo dạng `Octal` như quyền của file.  
+  khi một file được tạo ra, quyền mặc định của nó sẽ trừ cho umask để ra quyền của file.  
+  Khi một thư mục được tạo ra, quyền mặc định của nó sẽ trừ cho umask để ra quyền của folder  
+  
+*ví dụ:*  
+Với usmask 022  
+File và thư mục sẽ có quyền lần lượt là  
+file:  
+default: 666  
+umask: 022  
+permision: 6444  
 
+**File usmask được cấu hình ở đâu?**  
+usmask sẽ được cấu hình tại /etc/porfile hoặc /etc/bashrc sẽ áp dụng cho toàn bộ người dùng.  
+Người dùng có thể override umask bằng cách set umask trong home folder của họ với  
+/user/.bashrc(được load trong nologin mode) hoặc /user/.bash_profile(được load trong login mode) đối với bash shell.  
 
+Tìm và sửa dòng cấu hình umask để áp dụng cho những file,folder mới được tạo ra.

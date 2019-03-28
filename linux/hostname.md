@@ -65,3 +65,10 @@ thay đổi hostname cũ thành hostname mới và save lại.
 thay đổi hostname cũ thành hostsname mới, sau đó tiến hành save lại.  
 **Bước 5: kiểm tra hostname.**  
 ```hostname```  
+
+#### Sửa file hosts trên Linux(Ubuntu)  
+```angular2
+    sudo -i gedit /etc/hosts  
+    sudo vim /etc/host  
+    sudo nano /etc/hosts  
+```

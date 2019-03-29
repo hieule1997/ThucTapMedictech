@@ -99,9 +99,5 @@ trong **/etc/systemd/network/.**
 Nhớ là sử dụng **systemd-networkd.service** thì phải start nó lên và tắt NetworkManager.service đi và ta chỉ cần 1 trong 2 thôi.  
 Và bật thêm dịch vụ **systemd-resolved.service** để sử dụng **DNS** do **DHCP** cấp.  
 
-# Hướng dẫn đặt địa chỉ IP tĩnh trên Ubuntu Server  
 
-Đầu tiên, các bạn khởi động hdh UBUNTU SERVER lên, login vào hdh bằng **Username** và **Password** của bạn!  
-
-  <img src="img/4.png">  
 
